@@ -1,0 +1,27 @@
+[tools]
+age = "1.3.1"
+aws-cli = {version = "2.33.22", symlink_bins = "true"}
+fnox = "1.12.1"
+terraform = "1.14.5"
+terragrunt = "0.99.2"
+"vfox:gcloud" = "556.0.0"
+
+[tasks.init]
+description = "mise run init"
+env = {_.source = "scripts/environments.sh", redacted = true}
+run = "terragrunt init"
+
+[tasks.plan]
+description = "mise run plan"
+env = {_.source = "scripts/environments.sh", redacted = true}
+run = "terragrunt plan"
+
+[tasks.apply]
+description = "mise run apply"
+env = {_.source = "scripts/environments.sh", redacted = true}
+run = "terragrunt apply -auto-approve"
+
+[tasks.force-unlock]
+description = "mise run force-unlock <id>"
+env = {_.source = "scripts/environments.sh", redacted = true}
+run = "terraform force-unlock"
