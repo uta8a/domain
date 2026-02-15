@@ -136,6 +136,33 @@ locals {
       proxied = false
       comment = null
     }
+    "uta8a_net" = {
+      id      = null
+      name    = "@"
+      type    = "CNAME"
+      content = "uta8a-net.pages.dev"
+      ttl     = 1
+      proxied = true
+      comment = "portfolioサイトと、/blogの両方で使っている"
+    }
+    "chotto_uta8a_net" = {
+      id      = null
+      name    = "chotto"
+      type    = "CNAME"
+      content = "chotto-uta8a-net.pages.dev"
+      ttl     = 1
+      proxied = true
+      comment = "ひとくち記事置き場"
+    }
+    "generated_uta8a_net" = {
+      id      = null
+      name    = "generated"
+      type    = "CNAME"
+      content = "generated-uta8a-net.pages.dev"
+      ttl     = 1
+      proxied = true
+      comment = "自動生成されたコンテンツ置き場"
+    }
   }
 }
 
