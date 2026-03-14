@@ -64,33 +64,6 @@ locals {
       proxied = true
       comment = "https://github.com/alltheturkey/docs"
     }
-    "event_cname" = {
-      id      = "d2aea989d2b273baee2a42167304b998"
-      name    = "event"
-      type    = "CNAME"
-      content = "event-uta8a-net.pages.dev"
-      ttl     = 1
-      proxied = true
-      comment = null
-    }
-    "infinite_cname" = {
-      id      = "d82206f304c94ad6eeac65738adf1767"
-      name    = "infinite"
-      type    = "CNAME"
-      content = "infinite-uta8a-net.pages.dev"
-      ttl     = 1
-      proxied = true
-      comment = null
-    }
-    "knowledge_cname" = {
-      id      = "33104481c33ee478248af9542edcb9ca"
-      name    = "knowledge"
-      type    = "CNAME"
-      content = "knowledge-uta8a-net.pages.dev"
-      ttl     = 1
-      proxied = true
-      comment = null
-    }
     "math_docs_cname" = {
       id      = "f912dcc2dc32617b8c88dbbcc2cd8224"
       name    = "math.docs"
