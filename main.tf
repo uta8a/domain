@@ -91,15 +91,6 @@ locals {
       proxied = true
       comment = null
     }
-    "lottery_cname" = {
-      id      = "a75b636e48a85171635001f8c526db4f"
-      name    = "lottery"
-      type    = "CNAME"
-      content = "2023-lottery-uta8a-net.pages.dev"
-      ttl     = 1
-      proxied = true
-      comment = null
-    }
     "math_docs_cname" = {
       id      = "f912dcc2dc32617b8c88dbbcc2cd8224"
       name    = "math.docs"
@@ -137,7 +128,7 @@ locals {
       comment = null
     }
     "uta8a_net" = {
-      id      = null
+      id      = "4c9543e10be23bf0ff481a63b9255b57"
       name    = "@"
       type    = "CNAME"
       content = "uta8a-net.pages.dev"
@@ -146,7 +137,7 @@ locals {
       comment = "portfolioサイトと、/blogの両方で使っている"
     }
     "chotto_uta8a_net" = {
-      id      = null
+      id      = "5cf2029ff460c4d719e54516df5cdc4a"
       name    = "chotto"
       type    = "CNAME"
       content = "chotto-uta8a-net.pages.dev"
@@ -155,7 +146,7 @@ locals {
       comment = "ひとくち記事置き場"
     }
     "generated_uta8a_net" = {
-      id      = null
+      id      = "3f24b450d9a803da469bcff9dfd84438"
       name    = "generated"
       type    = "CNAME"
       content = "generated-uta8a-net.pages.dev"
