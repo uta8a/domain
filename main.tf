@@ -64,42 +64,6 @@ locals {
       proxied = true
       comment = "https://github.com/alltheturkey/docs"
     }
-    "event_cname" = {
-      id      = "d2aea989d2b273baee2a42167304b998"
-      name    = "event"
-      type    = "CNAME"
-      content = "event-uta8a-net.pages.dev"
-      ttl     = 1
-      proxied = true
-      comment = null
-    }
-    "infinite_cname" = {
-      id      = "d82206f304c94ad6eeac65738adf1767"
-      name    = "infinite"
-      type    = "CNAME"
-      content = "infinite-uta8a-net.pages.dev"
-      ttl     = 1
-      proxied = true
-      comment = null
-    }
-    "knowledge_cname" = {
-      id      = "33104481c33ee478248af9542edcb9ca"
-      name    = "knowledge"
-      type    = "CNAME"
-      content = "knowledge-uta8a-net.pages.dev"
-      ttl     = 1
-      proxied = true
-      comment = null
-    }
-    "lottery_cname" = {
-      id      = "a75b636e48a85171635001f8c526db4f"
-      name    = "lottery"
-      type    = "CNAME"
-      content = "2023-lottery-uta8a-net.pages.dev"
-      ttl     = 1
-      proxied = true
-      comment = null
-    }
     "math_docs_cname" = {
       id      = "f912dcc2dc32617b8c88dbbcc2cd8224"
       name    = "math.docs"
@@ -137,7 +101,7 @@ locals {
       comment = null
     }
     "uta8a_net" = {
-      id      = null
+      id      = "4c9543e10be23bf0ff481a63b9255b57"
       name    = "@"
       type    = "CNAME"
       content = "uta8a-net.pages.dev"
@@ -146,7 +110,7 @@ locals {
       comment = "portfolioサイトと、/blogの両方で使っている"
     }
     "chotto_uta8a_net" = {
-      id      = null
+      id      = "5cf2029ff460c4d719e54516df5cdc4a"
       name    = "chotto"
       type    = "CNAME"
       content = "chotto-uta8a-net.pages.dev"
@@ -155,7 +119,7 @@ locals {
       comment = "ひとくち記事置き場"
     }
     "generated_uta8a_net" = {
-      id      = null
+      id      = "3f24b450d9a803da469bcff9dfd84438"
       name    = "generated"
       type    = "CNAME"
       content = "generated-uta8a-net.pages.dev"
